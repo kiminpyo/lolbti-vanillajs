@@ -1,0 +1,50 @@
+#result{
+    display: none;
+    font-size: 22px;
+    background-color: whitesmoke;
+    width: 80%;
+    margin: auto;
+    text-align:  center;
+    border-radius: 20px;
+    
+}
+#shareResult{
+    font-size: 22px;
+    background-color: whitesmoke;
+    width: 80%;
+    margin: auto;
+    text-align:  center;
+    border-radius: 20px;
+    
+}
+
+.resultDesc{
+    font-size:20px;
+}
+
+.kakao{
+    color: white;
+    background-color: #FEE500;
+    font-size: 20px;
+    border:  0px;
+    border-radius:  20px;
+
+}
+.kakao:hover, .kakao:focus{
+    background-color:  white;
+    color: #FEE500;
+}
+
+.gohome{
+    color: white;
+    background-color: #FEE500;
+    font-size: 20px;
+    border:  0px;
+    border-radius:  20px;
+
+}
+.gohome:hover, .gohome:focus{
+    background-color:  white;
+    color: #FEE500;
+}
+

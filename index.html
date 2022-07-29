@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="kor">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="inpyoCoding" />
+        <meta name="keywords" content="성격으로 알아보는 롤 포지션" />
+        <meta name="description" content="성격으로 알아보는 롤 포지션" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no " />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <!-- sns share -->
+        <meta property="og:url" content="https://whatisyourlolbti.netlify.app" />
+        <meta property="og:title" content="성격으로 알아보는 롤 포지션" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="../img/lolbtiLogo.jpg" />
+        <meta property="og:description" content="성격으로 알아보는 롤 포지션" />
+
+        <!-- favicon -->
+        <link rel="shortcut icon" href="img/favicon.ico" />
+        <link rel="apple-touch-icon-precomposed" href="img/favicon.ico" />
+
+        <title>LOl.b.t.i</title>
+        <script src="https://kit.fontawesome.com/f530febc22.js" crossorigin="anonymous"></script>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="/css/footer.css">
+        <link rel="stylesheet" href="/css/main.css" />
+        <link rel="stylesheet" href="/css/qna.css" />
+        <link rel="stylesheet" href="/css/animation.css" />
+        <link rel="stylesheet" href="/css/result.css" />
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+
+        <script>
+            Kakao.init("ebe16a911ef69d16418a1b46fcc07b90");
+            Kakao.isInitialized();
+        </script>
+    </head>
+    <body>
+        <div class="container">
+         
+      
+            <!-- mx= margin, mt= margin-top -->
+            
+            <section id="main" class="mx-auto px-3" style="margin-top: 10%;">
+                <!-- <div class="time" id="timer">
+                    <img src="/img/롤대기시간.png" alt="">
+                </div> -->
+                <div class="pt-5 mx-auto col-md- col-lg-5 col-sm-8">
+                    <img class="img-fluid" src="./img/lolbtiLogoBlack.png" alt="" style="width:100%;">
+                </div>
+                <h3 class="pt-5">성격으로 알아보는 롤 포지션(ver.1)</h3>
+                <div class="col-md-8 col-lg-8 col-sm-8 mx-auto ">
+                    <!-- img-fluid= responsive img -->
+                    <img class="img-fluid" src="./img/kdaseries.jpg"  alt="" srcset=""  />
+                </div>
+               <div style="height: 140px; padding-top: 10px; " >
+                <img class="click" src="./img/니달리창배경제거.png" alt="" style="height: 80px; transform: rotate(180deg); width:30px">
+               </div>
+               <div class="pt-4">
+                <button type="button" id="startBtn" class="btn btn-outline-secondary py-2 px-2" style="background-color: rgb(95, 58, 103); font-size: 1.5rem; border: 0; color:white">시작하기</button>
+                  
+            </div>
+            <div id="footer" class="mt-3" style="font-size: 0.7rem;">
+                *주 챔피언 위주로 해주세요
+                <br>
+                *가볍게 하기
+            </div>
+            
+            </section>
+            <section id="qna">
+                <!-- <div class="time" id="timer">
+                    <img src="/img/롤대기시간.png" alt="">
+                </div> -->
+                <div class="status mx-auto mt-5" >
+                </div>
+                <div class="qBox my-5 py-3 "></div>
+                <div class="answerBox "></div>
+                <div class="qna-img-wrap col-2 col-md-2 col-lg-2 col-xl-2 "> 
+                    <img id="qna-img"class="img-fluid " src="/img/바위게.png" alt="" srcset="" >
+                </div>
+            </section>
+            <section id="result" class="mt-3 ax-auto">
+                <h1 class="pt-3">당신의 결과는?!</h1>
+                <div class="resultName"></div>
+                <div class="resultDesc"></div>
+                <div id="resultImg" class="col-md-8 col-lg-6 col-sm-6 mx-auto result-img"></div>  
+                <div class="resultRank"><div class="resultRankItem"></div></div>
+                <div style="margin:0; padding: 0 ; margin-bottom: 10px;">
+                    <button type="button" id="shareButton" class="btn kakao btn-outline-warning" onclick="share()">공유하기</button>   
+                </div>
+                <div style="width:100%; height: 50px;">  
+                    <img src="./img/롤로딩창.png" alt="" srcset=""  style="width:100% ;height:100%;">        
+                    <div for="" style="position: relative; color: white; transform: translate(-50%, -50%); left: 50%; top: -23px" >알고계셨나요? 테스트가 재미없다면
+                        <br>브론즈일 확률이 높습니다.</div>
+
+                        <div class="footer-wrapper" >
+                            <div class="footer-intro" >
+                                <div class="footer-team"><i id="footerTeam"class="fa-solid fa-people-group team" onclick="teamIntro()"></i></div>
+                            
+                            </div>
+                            <div class="footer-help"id="footerHelp" onclick="help()">질문지에 도움을 주시겠어요?</div>
+                        </div>
+             
+            </section>
+            
+        </div>
+        <script src="./js/qnaList.js"></script>
+        <script src="./js/start.js" charset="utf-8"></script>
+        <script src="./js/kakaoShare.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,64 @@
+@keyframes fadeIn{
+    from{ opacity: 0;}
+    to{ opacity: 1}
+}
+
+@keyframes fadeOut{
+    from{ opacity: 1;}
+    to{ opacity: 0}
+}
+
+@-webkit-keyframes fadeIn{
+    from{ opacity: 0;}
+    to{ opacity: 1}
+}
+
+@-webkit-keyframes fadeOut{
+    from{ opacity: 1;}
+    to{ opacity: 0}
+}
+@keyframes rotate{
+    form{
+        transform: rotate(0);
+    }to{
+        transform: rotate(360deg);
+    }
+
+}
+@keyframes goDown{
+    from{
+        margin-top:0;
+    }to{
+        margin-top: 40px;
+    }
+}
+#startBtn:hover{
+    animation-name: fadeIn ;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+
+}
+.fadeIn{
+    animation: fadeIn;
+    animation-duration: 1s;
+}
+.fadeOut{
+    animation: fadeOut;
+    animation-duration: 1s;
+}
+.loading {
+    animation: rotate 6s infinite;
+    animation-timing-function: linear;
+}
+@keyframes roaming {
+    from{
+        transform: translateX(0);
+    }to{
+        transform: translateX(500%);
+    }
+}
+
+
+
+
+

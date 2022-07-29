@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=East+Sea+Dokdo&family=Gamja+Flower&family=Jua&family=Stylish&display=swap');
+*{
+    /* font-family: 'Dongle', sans-serif;
+font-family: 'East Sea Dokdo', cursive;
+font-family: 'Gamja Flower', cursive; */
+font-family: 'Jua', sans-serif;
+font-size: 0.9rem;
+/* font-family: 'Stylish', sans-serif; */
+
+}
+#main{
+    font-size: 1.5rem;
+    background-color: rgb(219, 205, 217);
+    width: 80%;
+    text-align:  center;
+    border-radius: 20px;
+    
+}
+.time{
+    width: 100px;
+    height: 50px;
+    position: fixed;
+    right: 50px;
+}
+.time> img{
+    width: 100%;
+    height: 100%;
+}

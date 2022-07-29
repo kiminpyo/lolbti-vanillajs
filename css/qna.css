@@ -1,0 +1,82 @@
+#qna{
+    display: none;
+    width:80%;
+    margin: auto;
+}
+
+
+.qBox{
+    background-color: rgb(219, 205, 217);
+    border-radius:  20px;
+    text-align: center;
+    line-height: 1;
+    font-size: 1.3rem;
+    
+}
+.answerBox{
+    padding-top: 20px;
+}
+.answerList{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border: 0;
+    display: block;
+    width: 100%;
+    margin: auto;
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 5%;
+
+}
+.answerList:hover, .answerList:focus{
+ background-color: rgb(219, 205, 217);
+ color: whitesmoke;   
+}
+.qna-img-wrap > img{
+    animation: roaming 15s infinite;
+    animation-timing-function:  cubic-bezier(0.405, 1.230, 0.790, -0.425) ;
+
+}
+
+
+.status{
+    width: 100%;
+    
+}
+
+.click{
+    animation: goDown 1s infinite;
+    animation-timing-function: linear;
+}
+.result-img {
+    width: 200px;
+    height: 100px;
+    padding-top: 30px;
+}
+.result-img > img {
+    
+    width:20%;
+    height:70%;
+    border-radius: 50%;
+    padding:3px;
+}
+.resultName {
+    font-size: 50px;
+    font-weight: bold;
+}
+.resultRank{
+
+    margin-bottom: 20px;
+}
+.resultRank > div {
+    width: 60%;
+    padding: 3px;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 50px;
+    background-color: rgba(107, 90, 90, 0.274);
+    border : 1px solid black;
+}
+
+
