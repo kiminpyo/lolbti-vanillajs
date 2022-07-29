@@ -22,6 +22,9 @@ Test의 결과값과 함께 카카오톡 공유하기를 통해 게임의 이용
 detail
 ===
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/93189402/181820049-b6bebf77-b975-4e42-b9d4-750fba7a9699.gif)
+
+![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/93189402/181820266-ded849b1-1d2f-48a7-b093-48e87a4fc916.gif)
+
 ---
 resource
 ===
