@@ -8,12 +8,13 @@
 **site: <a href="https://whatisyourlolbti.netlify.app/">Lolbti</a>(https://whatisyourlolbti.netlify.app/)**
 
 **editor: vscode**
----
 
+---
 # 프로젝트 설명
 ---
-- League of Legend이용자들을 위한 성격별로 알아보는 Test(11가지 문항)입니다.
-- Test의 결과값과 함께 카카오톡 공유하기를 통해 게임의 이용자들 모두 가볍게 이용할 수 있게 만들었습니다.
+League of Legend이용자들을 위한 성격별로 알아보는 Test(11가지 문항)입니다.
+
+Test의 결과값과 함께 카카오톡 공유하기를 통해 게임의 이용자들 모두 가볍게 이용할 수 있게 만들었습니다.
 
 ---
 # 사용한 라이브러리 및 API, CDN 등
@@ -45,13 +46,16 @@
 ### 3. 공유
 
 - kakao api를 사용해 공유기능 활성화 
+
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/93189402/181824783-9056e96f-efe4-452e-9e7f-b6f3f1ec74fc.png)
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/93189402/181824920-574667d8-cc17-461d-8355-9c467a644939.png)
 
 ### 4. 2022.07.31+
+
 현재 이미지 사진 관련해 저작권문의가 끝나면 netlify를 이용해 통계를 분석할 계획입니다.
+
 이용자 수에 따라 ver.2 만들예정
----
+
 
 
 
