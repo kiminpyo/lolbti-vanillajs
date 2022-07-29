@@ -23,6 +23,7 @@
 - kakao Api
 - normalize.css
 - netlify(hosting-site)
+- bootstrap
 
 ---
 # 세부정보
@@ -55,6 +56,36 @@
 **현재 이미지 사진 관련해 저작권문의가 끝나면 netlify를 이용해 통계를 분석할 계획입니다.**
 
 **이용자 수에 따라 ver.2 만들예정**
+
+# 도움이 된 사이트
+
+- https://dillinger.io/ (readme preview)
+- https://github.com/dev-dain/10-things-test (구성에 대한 부분을 참고했습니다.)
+- https://www.w3schools.com/ (css property들을 Js로 변환하는데 이용)
+- https://app.netlify.com/ (serverless로 배포하는데 이용)
+
+
+# 기술적인 부분
+
+<a href="https://velog.io/@kip"/>에 추가예정입니다.
+
+<a href="https://velog.io/@kip"/>에 추가예정입니다.
+
+- html
+--  openGraph이용법 (meta tag)
+-- kakao Api 및 CDN
+
+- css
+-- animation과 keyframes
+-- 기본적인 틀(flex구조, font-size)
+-- bootstrap grid 
+
+- js
+-- events 적용 
+-- dom에 접근해 css 및 html 생성
+-- setTimeout과 setInterval을 이용한 css의 속성 제어
+-- for .. in 과 같은 반복문을 통해 질문지 생성 및 사용자의 값들에 대한 통계 로직 
+-- kakao api를 통한 공유 및 공 유시 생성되는 default값들에 대한 기본정보 수정
 
 
 
