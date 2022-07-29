@@ -69,7 +69,7 @@
 
 # 기술적인 부분
 
-제<a href="https://velog.io/@kip">기술블로그</a>에 추가예정입니다.
+제 <a href="https://velog.io/@kip">기술블로그</a> 에 추가예정입니다.
 
 ### html
 - openGraph이용법 (meta tag)
