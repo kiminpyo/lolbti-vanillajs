@@ -25,7 +25,7 @@ detail
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/93189402/181820049-b6bebf77-b975-4e42-b9d4-750fba7a9699.gif)
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/93189402/181820266-ded849b1-1d2f-48a7-b093-48e87a4fc916.gif)
 
-
+<img src ="https://user-images.githubusercontent.com/93189402/181824180-5946ecae-d4c4-4cab-9421-dc5ab952c7f0.png)"></img>
 ---
 resource
 ===
