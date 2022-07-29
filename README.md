@@ -69,15 +69,12 @@
 
 <a href="https://velog.io/@kip">에 추가예정입니다.</a>
 
-- html
-- - openGraph이용법 (meta tag)
--- kakao Api 및 CDN
-
-- css
-
--- animation과 keyframes
-
--- 기본적인 틀(flex구조, font-size)
+### html
+- openGraph이용법 (meta tag)
+- kakao Api 및 CDN
+### css
+- animation과 keyframes
+- 기본적인 틀(flex구조, font-size)
 
 -- bootstrap grid 
 
