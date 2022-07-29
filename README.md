@@ -5,7 +5,7 @@
 
 **project excution period: 2022.07.25~2022.07.30**
 
-**site: <a href="https://whatisyourlolbti.netlify.app/">Lolbti</a>**
+**site: <a href="https://whatisyourlolbti.netlify.app/">Lolbti</a>(https://whatisyourlolbti.netlify.app/)**
 
 **editor: vscode**
 ---
