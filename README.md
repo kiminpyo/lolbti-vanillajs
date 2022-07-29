@@ -2,8 +2,11 @@
 # 프로젝트 정보
 ---
 **Project Name: lol.b.t.i**
+
 **project excution period: 2022.07.25~2022.07.30**
+
 **site: <a href="https://whatisyourlolbti.netlify.app/">Lolbti</a>**
+
 **editor: vscode**
 ---
 
