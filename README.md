@@ -51,6 +51,8 @@
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/93189402/181824783-9056e96f-efe4-452e-9e7f-b6f3f1ec74fc.png)
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/93189402/181824920-574667d8-cc17-461d-8355-9c467a644939.png)
 
+---
+
 ### 4. 2022.07.31+
 
 **현재 이미지 사진 관련해 저작권문의가 끝나면 netlify를 이용해 통계를 분석할 계획입니다.**
