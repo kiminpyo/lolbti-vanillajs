@@ -70,7 +70,6 @@
 <a href="https://velog.io/@kip">에 추가예정입니다.</a>
 
 - html
-
 --  openGraph이용법 (meta tag)
 -- kakao Api 및 CDN
 
