@@ -33,8 +33,6 @@ const startBtn = document
 // }
 // },10)
 
-
-
     const teamIntro= () =>{
         const myteam = document.getElementById('footerTeam');
    
@@ -46,7 +44,6 @@ const startBtn = document
         footerHelp.innerHTML =  `<div><i class="fa-solid fa-envelope-open"></i> rladlsvy2448@naver.com</div>`;
         footerHelp.style.fontSize="0.6rem"
     }
-
 
     function calResult() {
         const pointArray = [
@@ -86,18 +83,16 @@ const startBtn = document
         // console.log(point)
         // 전체 value 값
         let j = 0
-        for(let i in point){
-     
+        for(let i in point){ 
             j += point[i].value
             // console.log(i)
         }
         // console.log(j)
-        setTimeout(()=>{
-         
-        const resultName = document.querySelector(".resultName");
-        resultName.innerHTML = infoList[point[0].key].name.replace(/[<>]/gi,"") + `(${Math.floor((point[0].value * 100)/j)})%`;
-        const resultDesc = document.querySelector(".resultDesc");
-        resultDesc.innerHTML = infoList[point[0].key].desc;
+        setTimeout(()=>{ 
+            const resultName = document.querySelector(".resultName");
+            resultName.innerHTML = infoList[point[0].key].name.replace(/[<>]/gi,"") + `(${Math.floor((point[0].value * 100)/j)})%`;
+            const resultDesc = document.querySelector(".resultDesc");
+            resultDesc.innerHTML = infoList[point[0].key].desc;
         },0)
         const resultRank = document.querySelector('.resultRank')
         resultRank.innerHTML = `
@@ -106,8 +101,6 @@ const startBtn = document
          <div>4등: ${infoList[point[3].key].name}  ${Math.floor((point[3].value * 100)/j)}%</div>
          <div>5등: ${infoList[point[4].key].name}  ${Math.floor((point[4].value * 100)/j)}%</div>
          `
-    
-  
 
         for(let i = 0; i < 5 ; i++){
             const resultImg = document.createElement("img");
@@ -117,9 +110,7 @@ const startBtn = document
             resultImg.alt = point[i];
             resultImg.classList.add("img-fluid");
             imgDiv.appendChild(resultImg);
-        }
-      
-       
+        }   
     }
     function goResult(){
         qna.style.WebkitAnimation = "fadeOut 1s  ";
@@ -133,45 +124,40 @@ const startBtn = document
             }, 450);
             calResult();
             setResult();
-          
             // console.log(select);
         }, 450);
     }
     function addAnswer(answerText, qIdx, idx) {
         const answerBox = document.querySelector(".answerBox");
-    const answer = document.createElement("div");
-    const img = document.createElement('img')
-    answer.classList.add("answerList");
-    answer.classList.add("fadeIn");
-    answerBox.appendChild(answer);
-    setTimeout(()=>{
+        const answer = document.createElement("div");
+        const img = document.createElement('img')
+        answer.classList.add("answerList");
+        answer.classList.add("fadeIn");
+        answerBox.appendChild(answer);
+        setTimeout(()=>{
         answer.appendChild(img)
-        // img.src = "https://opgg-static.akamaized.net/images/lol/champion/Diana.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_64&v=1658762585003"
-        // img.style.width ="40px"
-        // img.style.height="40px"
-        // img.style.borderRadius= " 50%"
-    },0)
-    answer.innerHTML = answerText 
-    answer.addEventListener(
-        "click",
-         function() {
-            const children = document.querySelectorAll(".answerList");
-            for (let i = 0; i < children.length; i++) {
-                children[i].disabled = true;
-                children[i].style.WebkitAnimation = "fadeOut 1s";
-                children[i].style.animation = "fadeOut 1s";
-            }
-            setTimeout(() => {
-                select[qIdx] = idx;
-                // console.log(select)
+        },0)
+        answer.innerHTML = answerText 
+        answer.addEventListener(
+            "click",
+            ()=> {
+                const children = document.querySelectorAll(".answerList");
                 for (let i = 0; i < children.length; i++) {
-                    children[i].style.display = "none";
+                    children[i].disabled = true;
+                    children[i].style.WebkitAnimation = "fadeOut 1s";
+                    children[i].style.animation = "fadeOut 1s";
                 }
-                goNext(++qIdx);
-            }, 100);
-        },
-        false
-    );
+                setTimeout(() => {
+                    select[qIdx] = idx;
+                    // console.log(select)
+                    for (let i = 0; i < children.length; i++) {
+                        children[i].style.display = "none";
+                    }
+                    goNext(++qIdx);
+                }, 100);
+            },
+            false
+        );
     }
     const goNext = (qIdx)=>{
         if (qIdx === endPoint) {
@@ -192,15 +178,13 @@ const startBtn = document
             statusImg.src = "../img/시비르표창.png"
             status.appendChild(statusImg)
         },0)
-      
-
     }
 
     function begin(){
- 
+
         main.style.WebkitAnimation = "fadeOut 1s  ";
-    main.style.animation = "fadeOut 1s";
-    setTimeout(() => {
+        main.style.animation = "fadeOut 1s";
+        setTimeout(() => {
         qna.style.WebkitAnimation = "fadeIn 1s";
         qna.style.animation = "fadeIn 1s";
         setTimeout(() => {
@@ -210,5 +194,5 @@ const startBtn = document
         let qIdx = 0;
         goNext(qIdx)
         
-    }, 450);
+        }, 450);
     }
