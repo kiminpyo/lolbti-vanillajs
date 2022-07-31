@@ -1,5 +1,5 @@
 # 에브리타임 커뮤니티에 공유(200명정도의 사용자가 방문)
-<img src="https://user-images.githubusercontent.com/93189402/182034090-d11ead65-0a03-4237-9e3f-253b39ddf0dd.png"/ style="width:300px;">
+<img src="https://user-images.githubusercontent.com/93189402/182034090-d11ead65-0a03-4237-9e3f-253b39ddf0dd.png" style="width:300px;"/>
 **피드백들이 들어와 추가적인 수정 후 다른 커뮤니티에 공유 예정입니다.**
 
 # 프로젝트 정보
