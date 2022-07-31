@@ -1,6 +1,5 @@
 # +++에브리타임 커뮤니티에 공유(2022.08.01)
-<img src="https://user-images.githubusercontent.com/93189402/182034090-d11ead65-0a03-4237-9e3f-253b39ddf0dd.png" style="width:300px;"/>
-
+<img src="![image](https://user-images.githubusercontent.com/93189402/182034387-d374c9c9-e202-47ff-a4e6-8bd539c405a1.png)" style="width:300px;"/>
 현재 200명정도의 방문자가 다녀갔습니다.
 **여러 피드백이 들어와 추가적인 수정 후 다른 커뮤니티에 공유 예정입니다**
 
