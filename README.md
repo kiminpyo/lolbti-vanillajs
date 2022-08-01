@@ -4,7 +4,7 @@
 <img src="https://user-images.githubusercontent.com/93189402/182189675-bafc15c9-1f53-4c29-8d28-dfa170b6294c.png" style="width:400px;"/>
 </div>
 
-현재 200명정도의 방문자가 다녀갔습니다.
+현재 1300명정도의 방문자가 다녀갔습니다.
 
 **여러 피드백이 들어와 추가적인 수정 후 다른 커뮤니티에 공유 예정입니다**
 
