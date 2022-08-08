@@ -1,10 +1,10 @@
 # +++에브리타임 커뮤니티에 첫 공유(2022.08.01~)
 <div style="display: 'flex';">
-<img src="https://user-images.githubusercontent.com/93189402/182189579-5e0096c2-08ae-44f4-82fa-726ebd90c399.png" style="width:400px;"/>
+<img src="https://user-images.githubusercontent.com/93189402/183472770-1e90fe57-87b5-441f-b3a7-1dfc5d2751e4.png" style="width:400px;"/>
 <img src="https://user-images.githubusercontent.com/93189402/182189675-bafc15c9-1f53-4c29-8d28-dfa170b6294c.png" style="width:400px;"/>
 </div>
 
-현재 1300명정도의 방문자가 다녀갔습니다.
+현재 1600명정도의 방문자가 다녀갔습니다.
 
 **여러 피드백이 들어와 추가적인 수정 후 다른 커뮤니티에 공유 예정입니다**
 
